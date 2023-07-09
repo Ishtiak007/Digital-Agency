@@ -23,12 +23,47 @@
   color: black;
 }
 /* banner section starts from here */
-.banner-section {
-  background-image: url("../asset/image/background.jpg"),
-    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4));
+.banner-conteiner {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
+    url("./asset/image/background.jpg");
   height: 100vh;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.digital-color {
+  color: rgb(243, 23, 23);
+}
+.banner-heading h1 {
+  font-size: 4rem;
+  color: white;
+}
+.banner-description {
+  color: white;
+  font-size: 21px;
+  margin-top: 8px;
+}
+.discover-btn {
+  border: none;
+  padding: 15px 25px;
+  background-color: red;
+  color: white;
+  margin-right: 9px;
+  margin-top: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.hire-btn {
+  border: none;
+  padding: 15px 25px;
+  background-color: white;
+  color: black;
+  margin-top: 20px;
+  font-size: 1rem;
+  cursor: pointer;
 }
