@@ -67,3 +67,164 @@
   font-size: 1rem;
   cursor: pointer;
 }
+/* services section */
+.service-container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url("./asset/image/footer-bg.png");
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.left-content {
+  width: 50%;
+  padding-left: 50px;
+}
+.george-smith {
+  display: flex;
+  gap: 20px;
+}
+.author-desc {
+  display: flex;
+  margin-top: 50px;
+  padding: 8px 50px 20px 0;
+  align-items: center;
+  border-right: 2px solid red;
+  justify-content: space-between;
+}
+.author-right {
+  margin-top: 70px;
+  padding: 8px 50px 20px 0;
+  align-items: center;
+}
+.details-btn {
+  border: none;
+  padding: 13px 27px;
+  background-color: rgb(240, 234, 234);
+  color: black;
+  cursor: pointer;
+  border-radius: 30px;
+  font-size: 1rem;
+  color: coral;
+}
+.img-desc {
+  color: white;
+  font-size: 16px;
+  margin-left: 8px;
+}
+.left-img {
+  width: 75px;
+  height: 75px;
+  border-radius: 35px;
+}
+.service-list-btn {
+  border: none;
+  padding: 15px 27px;
+  background-color: rgb(240, 234, 234);
+  color: black;
+  margin-top: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 30px;
+}
+.service-heading {
+  font-size: 50px;
+  color: white;
+  margin-top: 9px;
+}
+.service-color {
+  color: red;
+}
+.service-description {
+  color: white;
+  font-size: 22px;
+  margin-top: 10px;
+}
+.service-list {
+  margin-top: 30px;
+}
+.service-list li {
+  color: white;
+  font-size: 20px;
+  margin-top: 5px;
+}
+.service-row {
+  display: flex;
+}
+.first-two {
+  display: flex;
+  gap: 4px;
+  margin-top: 4px;
+}
+
+.second-two {
+  display: flex;
+}
+.icon {
+  width: 70px;
+  margin-bottom: 7px;
+}
+.box {
+  width: 150px;
+  height: 100px;
+  background-color: white;
+  text-align: center;
+  padding: 50px;
+  border-radius: 5px;
+  color: black;
+}
+.right-content {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding-right: 50px;
+}
+.service-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+/* end div */
+.end-div {
+  display: flex;
+  justify-content: space-around;
+  /* height: 150px; */
+  width: 75%;
+  background-color: red;
+  border-radius: 10px;
+  margin: 0 auto;
+  bottom: 0;
+  margin-top: -70px;
+  padding: 25px;
+  align-items: center;
+}
+.phone {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.phone-content h4 {
+  font-size: 16px;
+  color: white;
+}
+.phone {
+  border-right: 2px solid rgb(254, 254, 254);
+}
+.end-div-desc {
+  padding: 1rem;
+  color: white;
+}
+.appoinment-btn {
+  border: none;
+  padding: 15px 40px;
+  background-color: rgb(240, 234, 234);
+  color: black;
+  cursor: pointer;
+  border-radius: 30px;
+}
+.phone-content h3 {
+  font-size: 1.5rem;
+  color: antiquewhite;
+}
