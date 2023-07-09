@@ -267,3 +267,57 @@ section {
   padding: 0 20px;
   text-align: left;
 }
+footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url("./asset/image/footer-bg.png");
+  height: 60vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.footer-container {
+  height: 50vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.agence {
+  color: white;
+}
+.agence h4 {
+  margin-bottom: 10px;
+}
+.useful-links {
+  color: white;
+}
+.useful-links h4 {
+  margin-bottom: 16px;
+}
+.supports h4 {
+  margin-bottom: 16px;
+}
+.contact-information h4 {
+  margin-bottom: 16px;
+}
+.contact-information h4 {
+  margin-bottom: 16px;
+}
+.supports {
+  color: white;
+}
+.contact-information {
+  color: white;
+}
+hr {
+  width: 80%;
+  color: white;
+  margin-top: 17px;
+  margin-bottom: 17px;
+  margin: 0 auto;
+}
+.copy-right {
+  text-align: center;
+  color: white;
+  margin-top: 16px;
+}
