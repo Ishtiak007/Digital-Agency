@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 180px;
+  background: gray;
+}
+.nav-lists {
+  display: flex;
+}
+.nav-list {
+  margin-right: 15px;
+  font-size: 1rem;
+}
+.nav-list a {
+  font-size: 1.5rem;
+  color: black;
+}
+/* banner section starts from here */
+.banner-section {
+  background-image: url("../asset/image/background.jpg"),
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4));
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
